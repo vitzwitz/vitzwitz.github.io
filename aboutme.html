@@ -3,54 +3,66 @@
 <html>
 
 <head>
-	<link href="test1.css" rel="stylesheet">
+	<link rel="stylesheet" href="background.css">
+	<link rel="stylesheet" href="navigation.css">
 	<title> About Me </title>
 
 </head>
 
 <body>
 
-<h1>About Me </h1>
-
-
-
-</body>
+<ul>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#research">Research</a></li>
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtt">Projects</a>
+		<div class="dropdown-menu">
+			<a href="#">Java Projects</a>
+			<a href="#">Python Projects</a>
+			<a href="#">Matlab Projects</a>
+			<a href="#">HTML Projects</a>
+		</div>
+	</li>
+	<li style="float:left"><a class="active" href="#about">About</a></li>
+</ul>
 
 <article>
+<div class="Text">
+	<div class="shadowBox">
+		<div class="box">
 
+			<h1>Hello, I'm Bri! </h1>
 
     <section id="intro">
-	<p>I am a python developer, a manager, and an aspiring numerical mathematician. I graduate
-	Rochester Institute of Technology with a bachelor of science in applied mathematics.  I am
-	a member of the Structural Biology Extensible Visualization Scripting Language research team.
-	I write machine learning concepts such as k-nearest neighbors and principal components
-	analysis in efforts to update their plug-in into a stand-alone software.  I am a manager at
-	a coffee shop on campus since January of 2016.  Math and programming are my passions, and I
-	want to explore various fields throoughout my career such as data science, IT, software
-	engineering, robotics, research, game design, and web and app development.</p>
+	<p>I am a python developer, a manager, and an aspiring numerical mathematician. I graduate Rochester Institute of Technology with a bachelor of
+		 science in applied mathematics.  I am a member of the Structural Biology Extensible Visualization Scripting Language research team. We are
+		 updating the back-end of a software plug-in, ProMOL, so that we can convert it into a stand-alone version and allow it to be independent of
+		 PyMOL, a molecular visualization program.  I write algorithms, apply data science techniques and libraries, and test my program by mining data
+		 from an online database, the Protein Data Bank.  Math and programming are my passions, and I hope to explore a variety of fields throughout my
+		 career such as data science, software engineering, security, robotics, research, game design, and web and app development.</p>
+		 <!-- I write algorithms by applying data science techniques and libraries, and most recently, I have been writing a methods to compare proteins that live
+		 in the same family by creating a database, storing the results from my program, and exporting the organized data back into the program.  Then principal
+		 components analysis will be implemented onto that data to determine the source of the greatest variances in the results.
+		 This plug-in determines the function of a protein based on its catalytic sites, or motifs.  I have updated the motif files using principal components
+		 analysis and a parsing method.  I also wrote a search algorithm using data science techniques and libraries; ProMOL will now have its own searching
+		 process and hopefully, a better time complexity. -->
 
-    <section id="main_content">
-        <p>I started at Rochester Institute of Technology as a physics major, but two and
-	a half years late, I realized that it was the wrong field for me.  However, it
-	helped me rediscover a passion I have had since elementary school: <em>math</em>.
-	I had a couple friends in the math department, and they seemed well pleased with
-	their studies, so I switched to applied mathematics in 2015. I took a few mathematical
-	modeling courses, and my opinion on programming changed; I went from hating
-	coding to loving it.  Ever since, I try to learn as many languages as I can. I am
-	always eager to learn more about computer science, numerical analysis, databases,
-	model building, algorithms, and software engineering.  By the end of Decemeber of 2016,
-	I joined a biochemical research team to incorporate my mathematical knowledge to their
-	plug-in.  My work has introduced me to data science, and I have decided that this is the
-	career for me.  I realized that I want to develop and write algorithms, create and manage
-	databases, learn about unfamiliar fields such as biochemistry, apply machine learning
-	concepts to software, and program in the industry.</p>
+
+    <!-- <section id="main_content">
+        <p>I started at Rochester Institute of Technology as a physics major, but two and	a half years later, I realized that it was the wrong field for
+					me, but rediscovered a passion I have had since elementary school: <em>math</em>. I switched to applied mathematics in 2015, I took a few
+					mathematical modeling courses, and my	opinion on programming changed. I began to love it.  Ever since, I try to learn as many languages as I can.
+					I am always eager	to learn more about computer science, numerical analysis, databases, model building, algorithms, and software engineering.  By the
+					end of Decemeber of 2016,	I joined a biochemical research team to incorporate my mathematical knowledge to their plug-in.  My work has introduced me
+					to data science, and I have decided that this is the	career for me.  I realized that I want to develop and write algorithms, create and manage	databases,
+					learn about	unfamiliar fields such as biochemistry, apply machine learning concepts to software, and program in the industry.</p>  -->
     </section>
-    <section id="related">
-        <ul>
-            <li><a href="that.html">That related article</a></li>
-            <li><a href="this.html">This related article</a></li>
-        </ul>
-    </section>
+</div>
+</div>
+</div>
 </article>
+</body>
 
+
+</div>
 </html>

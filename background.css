@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url(hiro-momo.jpg);
+  background-size: 45% 150%;
+  background-repeat: no-repeat;
+  background-color: rgb(122, 236, 249);
+
+}
+
+div.Text {
+		width: 50%;
+    float: right;
+		text-align: justify;
+}
+div.shadowBox {
+	width: 80%;
+	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+	text-align: justify;
+}
+div.box {
+	padding: 40px;
+}
