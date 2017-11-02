@@ -14,7 +14,8 @@ body {
 
 @media only screen and (min-device-width: 400px) {
     body {
-        background-image: url('tyler.jpg'); 
+        background-image: url('tyler.jpg');
+        background-size: cover;
     }
 }
 
