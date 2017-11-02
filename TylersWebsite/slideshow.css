@@ -19,8 +19,6 @@ body {font-family: Verdana,sans-serif;margin:0}
 img {
     max-width: 100%;
     height: auto;
-    position: absolute;
-    resize:both;
 }
 
 .prev, .next {
