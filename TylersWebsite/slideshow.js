@@ -2,16 +2,16 @@ var index = 1;
 
 showSlides(index);
 
-function incrementSlides(N)
+function incrementSlides(n)
 {
   // moves through slides
-  showSlide(index+= N);
+  showSlide(index+= n);
 }
 
-function showCurrentSlide(N)
+function showCurrentSlide(n)
 {
   // shows slide at that index
-  showSlide(index=N);
+  showSlide(index=n);
 }
 
 
@@ -37,5 +37,5 @@ function showSlide
     {
       slides[i].style.display = "none";
     }
-    slides[index - 1].style.display = "block";    
+    slides[index - 1].style.display = "block";
 }
