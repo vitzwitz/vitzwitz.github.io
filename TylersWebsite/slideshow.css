@@ -16,6 +16,12 @@ body {font-family: Verdana,sans-serif;margin:0}
 }
 
 
+img {
+  width:auto;
+  height:auto;
+  position:cover;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
