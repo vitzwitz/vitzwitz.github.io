@@ -7,9 +7,14 @@ body {font-family: Verdana,sans-serif;margin:0}
   max-width: 100%;
   position: fixed;
   margin: auto;
-  max-height: 100%;
 }
 
+.headerNfooter {
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+    color: #f1f1f1;
+}
 
 .prev, .next {
   cursor: pointer;
