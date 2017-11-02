@@ -28,12 +28,12 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    [class*="col-"] {
+    /*[class*="col-"] {
         width: 100%;
     }
-}
+/*}**/
 
 
 /*img {
@@ -41,11 +41,6 @@ body {
     height: auto;
 }*/
 
-@media only screen and (min-device-width: 400px) {
-    body {
-        background-image: url('tyler.jpg');
-    }
-}
 
 
 
