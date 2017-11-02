@@ -1,27 +1,17 @@
-/*body {
+body {
   background-image: url(tyler.jpg);
   background-size:100%;
-  width:100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   display: grid;
-  /*background-attachment: fixed;*/
+}
+
   /*margin-left: 3%;*/
   /*max-width:100%;
-  height: auto;*/
+  height: auto;
 /*}*//
 
 
-body {
-    background-color: #000;
-    background-image: url(tyler.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 /*@media (min-width: 481px) {
   body {
