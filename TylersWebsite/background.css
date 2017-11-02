@@ -11,7 +11,7 @@ body {
   body {
     background-image: url(tyler.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
