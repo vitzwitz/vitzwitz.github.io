@@ -1,18 +1,12 @@
 var index = 1;
-
 showSlides(index);
 
 function incrementSlides(n)
 {
   // moves through slides
-  showSlide(index+= n);
+  showSlide(index += n);
 }
 
-function showCurrentSlide(n)
-{
-  // shows slide at that index
-  showSlide(index=n);
-}
 
 
 function showSlide(n)
@@ -29,4 +23,4 @@ function showSlide(n)
       slides[i].style.display = "none";
     }
     slides[index - 1].style.display = "block";
-  }
+}
