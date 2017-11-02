@@ -10,11 +10,11 @@ body {
 
 @media only screen and (min-width: 400px) {
   body {
-    background-image: url(mobile.png);
+    background-image: url(tyler.jpg);
     background-repeat: no-repeat;
     background-size: contain ;
     position: absolute;
-    clip: rect(0, 100px, 200px, 0);
+    clip: rect(0, 100px, 2px, 0);
   }
 }
 
