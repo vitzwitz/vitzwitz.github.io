@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   display: grid;
   background-attachment: fixed;
+  margin-left: 3%;
 }
 
 /*@media (min-width: 481px) {
