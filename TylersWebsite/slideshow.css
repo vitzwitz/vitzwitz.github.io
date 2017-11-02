@@ -6,6 +6,8 @@ body {font-family: Verdana,sans-serif;margin:0}
 .slideshow-container {
   position: relative;
   margin: auto;
+  min-width: 1000px;
+  max-width: 100%;
 }
 
 
