@@ -16,6 +16,7 @@ body {
     background-image: url(tyler.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
     background-attachment: fixed;
     webkit-background-size: cover;
     -moz-background-size: cover;
