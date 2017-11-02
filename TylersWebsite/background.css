@@ -1,4 +1,4 @@
-html {
+body {
   background-image: url(tyler.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,13 +7,17 @@ html {
 }
 
 
-/*.container {
-position: relative;
+
+@media only screen and (min-width: 400px) {
+  #clip {
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    position: absolute;
+    clip: rect(0, 100px, 200px, 0);
+  }
 }
-#clip {
-position: absolute;
-clip: rect(0, 100px, 200px, 0);
-}*/
+
 
 
 h3 {
