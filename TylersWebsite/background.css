@@ -1,13 +1,13 @@
 body {
   background-image: url(tyler.jpg);
-  background-size: cover;
+  background-size:100%;
+  width:100%;
   background-repeat: no-repeat;
   display: grid;
   background-attachment: fixed;
   margin-left: 3%;
-  max-width:100%;
-  height: auto;
-  min-width: 300px;
+  /*max-width:100%;
+  height: auto;*/
 }
 
 /*@media (min-width: 481px) {
