@@ -2,21 +2,10 @@ body {
   background-image: url(tyler.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
   background-attachment: fixed;
   margin-left: 3%;
 }
-
-
-
-/*@media only screen and (min-device-width: 400px) {
-  body {
-    background-image: url(tyler.jpg);
-    clip: rect(0, 100px, 200px, 0);
-    background-size: cover;
-  }
-}*/
-
-
 
 h3 {
   color: white;
