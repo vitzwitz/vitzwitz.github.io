@@ -17,9 +17,8 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 
 img {
-  width:auto;
-  height:auto;
-  position:inherit;
+    max-width: 100%;
+    height: auto;
 }
 
 .prev, .next {
