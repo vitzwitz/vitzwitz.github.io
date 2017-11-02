@@ -7,6 +7,8 @@ body {
   background-size: 45% 150%;
   background-repeat: no-repeat;
   background-color: rgb(122, 236, 249);
+  max-width: 100%;
+  height: auto;
 
 }
 
