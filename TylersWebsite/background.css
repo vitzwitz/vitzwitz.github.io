@@ -1,14 +1,14 @@
-body {
-  background-image: url(tyler.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 3%;
-}
-
 img {
     width: 100%;
     height: auto;
 }
+
+/*body {
+  background-image: url(tyler.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3%;
+}*/
 
 h3 {
   color: white;
