@@ -19,11 +19,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 img {
     max-width: 100%;
     height: auto;
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    position: cover;
+    position: absolute;
 }
 
 .prev, .next {
