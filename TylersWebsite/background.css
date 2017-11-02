@@ -1,10 +1,18 @@
 body {
   background-image: url(tyler.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   background-attachment: fixed;
   margin-left: 3%;
+}
+
+@media (min-width: 481px) {
+  body {
+    background-image: url(tyler.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
 }
 
 .col-1 {width: 8.33%;}
