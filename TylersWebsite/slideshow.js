@@ -7,12 +7,10 @@ function incrementSlides(n)
   showSlide(index += n);
 }
 
-
-
-function showSlide(n)
+function showSlides(n)
 {
     var i;
-    var slides = document.getElementsByClassName('theSlides');
+    var slides = 	document.getElementsByClassName('theSlides');
 
     // start from beginning
     if (n > slides.length) {index = 1}
