@@ -5,16 +5,10 @@ body {font-family: Verdana,sans-serif;margin:0}
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
-  background: cover;
+  background-position: center;
   position: fixed;
 }
 
-.headerNfooter {
-    text-align: center;
-    padding: 10px;
-    background-color: #262626;
-    color: #f1f1f1;
-}
 
 .prev, .next {
   cursor: pointer;
@@ -40,7 +34,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 }
 
 .captionText {
-  color: #f2f2f2;
+  color: #262626;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
