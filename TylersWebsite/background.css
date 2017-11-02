@@ -2,6 +2,8 @@ body {
   background-image: url(tyler.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
+  background-attachment: fixed;
   margin-left: 3%;
 }
 
