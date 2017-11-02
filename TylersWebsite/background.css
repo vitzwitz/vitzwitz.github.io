@@ -1,6 +1,6 @@
 body {
   background-image: url(tyler.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   display: grid;
   background-attachment: fixed;
