@@ -1,10 +1,20 @@
-body {
+html {
   background-image: url(tyler.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-left: 3%;
 }
+
+
+/*.container {
+position: relative;
+}
+#clip {
+position: absolute;
+clip: rect(0, 100px, 200px, 0);
+}*/
+
 
 h3 {
   color: white;
