@@ -3,8 +3,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 3%;
-  max-width: 100%;
-  height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 h3 {
