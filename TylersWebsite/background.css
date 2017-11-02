@@ -9,7 +9,7 @@ body {
 
 
 @media only screen and (min-width: 400px) {
-  #clip {
+  body {
     background-image: url(mobile.png);
     background-repeat: no-repeat;
     background-size: contain ;
