@@ -10,13 +10,17 @@ body {
   height: auto;*/
 }
 
-/*@media (min-width: 481px) {
+
+
+@media (min-width: 481px) {
   body {
     background-image: url(tyler.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width:100%;
+    height: auto;
   }
-}*/
+}
 
 /*.col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
