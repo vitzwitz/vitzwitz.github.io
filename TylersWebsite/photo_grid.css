@@ -33,7 +33,6 @@ a:hover {
 .row:after {
     content: "";
     display: inline-grid;
-    clear: both;
 }
 
 div.gallery {
