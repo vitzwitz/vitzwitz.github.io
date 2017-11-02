@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   margin-left: 3%;
   max-width:100%;
+  height: auto;
 }
 
 /*@media (min-width: 481px) {
