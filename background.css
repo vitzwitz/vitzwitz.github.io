@@ -1,3 +1,19 @@
+.header {
+    padding: 15px;
+}
+
+
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+
+}
+
+
+
+
+
+
 h1 {
   text-align: center;
 }
