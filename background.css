@@ -123,6 +123,9 @@ div.shadowBox {
       float: right;
   		text-align: justify;
       background-color: rgb(230, 230, 230);
+      font-size: 5px;
+      letter-spacing: 0.5px;
+      line-height: 2px;
   }
 }
 
