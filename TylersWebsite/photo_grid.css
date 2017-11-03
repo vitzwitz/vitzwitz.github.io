@@ -24,7 +24,7 @@ body {
 
 .column img {
     display: inline-grid;
-    background-color: #4d4d4d;
+    background-color: #333333;
     border: 3px solid #0d0d0d;
     border-radius: 3px;
 }
