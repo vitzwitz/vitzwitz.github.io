@@ -21,7 +21,7 @@ li a, .dropbtt {
 }
 
 li a:hover, .dropdown:hover .dropbtt {
-  background-color:SlateBlue;
+  background-color: black;
 }
 li.dropdown {
   display: inline-block;
