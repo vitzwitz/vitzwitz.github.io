@@ -21,7 +21,7 @@ img {
   height: auto;
   width: 100%;
   overflow: hidden;
-  position: relative; 
+  position: relative;
 }
 
 .prev, .next {
@@ -35,7 +35,7 @@ img {
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 6px 12px 0;
 }
 
 .next {
