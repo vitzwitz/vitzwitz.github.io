@@ -14,7 +14,7 @@
 }
 
 [class*="col-"] {
-    float: left;
+    float: right;
     padding: 15px;
 }
 .col-1 {width: 8.33%;}
