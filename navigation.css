@@ -12,6 +12,7 @@ li {
   float:right;
 }
 
+
 li a, .dropbtt {
   display: inline-block;
   color: LightCyan;
@@ -27,6 +28,7 @@ li.dropdown {
   display: inline-block;
 }
 
+/* Dropdown menu */
 .dropdown-menu {
   display: none;
   position: absolute;
