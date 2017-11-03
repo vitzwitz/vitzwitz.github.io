@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    background-color: red;
-    border: 3px solid #4d4d4d;
+    background-color: #333333;
+    border: 3px solid #0d0d0d;
     font-family: Arial;
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* Create two equal columns that floats next to each other */
 .column {
-    float: auto;
+    float: right;
     width: 50%;
 }
 
