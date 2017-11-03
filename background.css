@@ -44,9 +44,12 @@ body {
 img {
   margin-left: 2%;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  border-radius: 10px;
+  border-radius: 7px;
   position: absolute;
   height: 550px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(220, 220, 220);
 }
 
 
@@ -64,6 +67,9 @@ div.Text {
     float: right;
 		text-align: justify;
     background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
 }
 
 div.shadowBox {

@@ -38,7 +38,7 @@ li a:hover, .dropdown:hover .dropbtt {
   border-radius: 0px;
   border-style:solid;
   border-color: rgb(65,65,65);
-  border-width:2px;
+  border-width:1px;
 }
 
 li.dropdown {
