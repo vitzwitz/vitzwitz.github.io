@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #333333;
+    background-color: #262626;
     border: 3px solid #0d0d0d;
     font-family: Arial;
 }
@@ -24,7 +24,7 @@ body {
 
 .column img {
     display: inline-grid;
-    background-color: #333333;
+    background-color: #262626;
     border: 3px solid #0d0d0d;
     border-radius: 3px;
 }
