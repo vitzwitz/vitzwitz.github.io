@@ -27,25 +27,21 @@ body {
     display: inline-grid;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+/* Desktops */
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
 /*[class*="col-"] */
 img {
@@ -96,6 +92,27 @@ div.shadowBox {
     padding: 4% 7%;
 }
 
+    /* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    margin-left: 2%;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+    position:fixed;
+    height: 250px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(220, 220, 220);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   div.Text {
       font-family: Georgia, serif;
@@ -108,7 +125,6 @@ div.shadowBox {
 
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     div.shadowBox {
       box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
       background-color: rgb(220, 220, 220);
@@ -119,14 +135,7 @@ div.shadowBox {
 }
 
 @media only screen and (max-width: 768px) {
-  img {
-    margin-left: 2%;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-    border-radius: 7px;
-    position:fixed;
-    height: 350px;
-    border-style: solid;
-    border-width: thin;
-    border-color: rgb(220, 220, 220);
+  .container {
+      padding: 4% 7%;
   }
 }
