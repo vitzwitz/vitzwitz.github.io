@@ -19,11 +19,9 @@ body {
 .column {
     float: left;
     width: 50%;
-    padding: 1px;
 }
 
 .column img {
-    margin-top: 1px;
     display: inline-grid;
 }
 
