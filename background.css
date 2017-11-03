@@ -52,12 +52,14 @@ img {
   margin-left: 2%;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   border-radius: 7px;
-  position: absolute;
+  position:fixed;
   height: 550px;
   border-style: solid;
   border-width: thin;
   border-color: rgb(220, 220, 220);
 }
+
+
 
 
 h1 {
@@ -90,6 +92,11 @@ div.shadowBox {
   border-style: groove;
 }
 
+.container {
+    padding: 4% 7%;
+}
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     div.shadowBox {
@@ -101,7 +108,15 @@ div.shadowBox {
     }
 }
 
-
-.container {
-    padding: 4% 7%;
+@media only screen and (max-width: 768px) {
+  img {
+    margin-left: 2%;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+    position:fixed;
+    height: 350px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(220, 220, 220);
+  }
 }
