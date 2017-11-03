@@ -10,7 +10,7 @@
 .row::after {
     content: "";
     clear: both;
-    display: grid;
+    display: inline-grid;
 }
 
 [class*="col-"] {
