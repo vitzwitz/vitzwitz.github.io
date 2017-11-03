@@ -37,7 +37,7 @@ a:hover {
 
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
     content: "";
     display: inline-grid;
 }
