@@ -8,11 +8,11 @@
 
 
 }
-.row::after {
+.row:after {
     content: "";
-    clear: both;
-    display: ;
+    display: inline-grid;
 }
+
 [class*="col-"] {
     float: left;
     padding: 15px;
