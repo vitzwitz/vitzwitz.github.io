@@ -98,7 +98,6 @@ div.shadowBox {
     [class*="col-"] {
         width: 100%;
         float: left;
-        padding: 15px;
         overflow: hidden;
         display:grid;
     }
