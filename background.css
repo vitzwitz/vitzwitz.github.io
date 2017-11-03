@@ -99,7 +99,7 @@ div.shadowBox {
         width: 100%;
         float: right;
         overflow: hidden;
-        display:grid;
+        display:block;
     }
 }
 
