@@ -110,7 +110,7 @@ div.shadowBox {
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
     border-radius: 7px;
     position:absolute;
-    height: 250px;
+    height: auto;
     border-style: solid;
     border-width: thin;
     border-color: rgb(220, 220, 220);
