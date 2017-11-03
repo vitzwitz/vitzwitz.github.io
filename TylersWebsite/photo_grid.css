@@ -18,14 +18,14 @@ body {
 
 /* Create two equal columns that floats next to each other */
 .column {
-    float: left;
+    float: auto;
     width: 50%;
 }
 
 .column img {
     display: inline-grid;
-    background-color: #1a1a1a;
-    border: 3px solid #4d4d4d;
+    background-color: #4d4d4d;
+    border: 3px solid #1a1a1a;
     border-radius: 3px;
 }
 
