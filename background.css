@@ -106,8 +106,7 @@ div.shadowBox {
 @media only screen and (max-width: 768px) {
   .row::after {
       content: "";
-      clear: both;
-      display: grid;
+      display: block;
   }
 }
 
