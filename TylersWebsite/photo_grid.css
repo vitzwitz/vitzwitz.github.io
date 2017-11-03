@@ -5,8 +5,6 @@
 body {
     margin: 0;
     font-family: Arial;
-    background-color: #1a1a1a;
-    border: 3px solid #4d4d4d;
 }
 
 .header {
@@ -24,6 +22,9 @@ body {
 
 .column img {
     display: inline-grid;
+    background-color: #1a1a1a;
+    border: 3px solid #4d4d4d;
+    border-radius: 3px;
 }
 
 a:hover {
