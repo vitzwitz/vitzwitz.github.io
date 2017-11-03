@@ -98,7 +98,7 @@ div.shadowBox {
 
 @media only screen and (max-width: 768px) {
   div.Text {
-    font-family: Georgia, serif;
+      font-family: Georgia, serif;
       float: right;
   		text-align: justify;
       background-color: rgb(230, 230, 230);
