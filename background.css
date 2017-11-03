@@ -8,7 +8,7 @@ body {
 
 
 .header {
-    padding: 15px;
+    padding: 25px;
     font-family: Verdana, Sans-serif;
 }
 
@@ -21,13 +21,79 @@ body {
 }
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
-    overflow: hidden;
-    display: inline-grid;
+  width: 100%;
+  float: right;
+  display:block;
 }
 
 /* Desktops */
+
+
+/*[class*="col-"] */
+img {
+  margin-left: 2%;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  border-radius: 7px;
+  position:absolute;
+  height: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(220, 220, 220);
+
+
+}
+
+h1 {
+  text-align: center;
+}
+/*
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}*/
+
+div.Text {
+  font-family: Georgia, serif;
+  float: right;
+  text-align: justify;
+  background-color: rgb(230, 230, 230);
+  font-size: 5px;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+}
+
+div.shadowBox {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+  background-color: rgb(220, 220, 220);
+  transition: 0.5s;
+  border-radius: 4px;
+  border-style: groove;
+}
+
+.container {
+  padding: 2% 4%;
+}
+
+    /* For Desktops: */
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        padding: 15px;
+        font-family: Verdana, Sans-serif;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      overflow: hidden;
+      display: inline-grid;
+    }
+}
+
+
 @media only screen and (min-width: 768px) {
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -43,105 +109,48 @@ body {
   .col-12 {width: 100%;}
 }
 
-/*[class*="col-"] */
-img {
-  margin-left: 2%;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  border-radius: 7px;
-  position:fixed;
-  height: 550px;
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(220, 220, 220);
-}
-
-
-
-
-h1 {
-  text-align: center;
-}
-/*
-
-body {
-  background-color: hsl(0, 0%, 98%);
-}*/
-
-div.Text {
-  font-family: Georgia, serif;
-    float: right;
-		text-align: justify;
-    background-color: rgb(230, 230, 230);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    line-height: 20px;
-}
-
-div.shadowBox {
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
-  background-color: rgb(220, 220, 220);
-  transition: 0.5s;
-  border-radius: 4px;
-  margin-left: 16%;
-  margin-right: 4%;
-  margin-top: 3%;
-  border-style: groove;
-}
-
-.container {
-    padding: 4% 7%;
-}
-
-    /* For mobile phones: */
-
-@media only screen and (max-width: 768px) {
-    [class*="col-"] {
-        width: 100%;
-        float: right;
-        display:block;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   img {
     margin-left: 2%;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
     border-radius: 7px;
-    position:absolute;
-    height: auto;
+    position:fixed;
+    height: 550px;
     border-style: solid;
     border-width: thin;
     border-color: rgb(220, 220, 220);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   div.Text {
-      font-family: Georgia, serif;
-      float: right;
-  		text-align: justify;
-      background-color: rgb(230, 230, 230);
-      font-size: 5px;
-      letter-spacing: 0.5px;
-      line-height: 10px;
+    font-family: Georgia, serif;
+    float: right;
+    text-align: justify;
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
   }
 }
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     div.shadowBox {
-      box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
-      background-color: rgb(220, 220, 220);
-      transition: 0.5s;
-      border-radius: 4px;
-      border-style: groove;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+        background-color: rgb(220, 220, 220);
+        transition: 0.5s;
+        border-radius: 4px;
+        margin-left: 16%;
+        margin-right: 4%;
+        margin-top: 3%;
+        border-style: groove;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
-      padding: 2% 4%;
+    padding: 4% 7%;
   }
 }
