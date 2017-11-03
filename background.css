@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(230, 230, 230);
 }
 
 
@@ -45,7 +45,7 @@ img {
   margin-left: 2%;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
   border-radius: 10px;
-  position:fixed;
+  position: absolute;
   height: 550px;
 }
 
@@ -63,20 +63,21 @@ div.Text {
   font-family: Georgia, serif;
     float: right;
 		text-align: justify;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(230, 230, 230);
 }
 
 div.shadowBox {
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
-  background-color: rgb(225, 225, 225);
-  transition: 0.3s;
-  border-radius: 5px;
-  margin-left: 15%;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+  background-color: rgb(220, 220, 220);
+  transition: 0.5s;
+  border-radius: 4px;
+  margin-left: 16%;
   margin-right: 4%;
   margin-top: 3%;
+  border-style: groove;
 }
 
 
 .container {
-    padding: 8% 8%;
+    padding: 4% 7%;
 }
