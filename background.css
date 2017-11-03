@@ -100,7 +100,7 @@ div.shadowBox {
         float: left;
         padding: 15px;
         overflow: hidden;
-        display: inline-grid;
+        display:grid;
     }
 }
 
