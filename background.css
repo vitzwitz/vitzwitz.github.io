@@ -90,6 +90,17 @@ div.shadowBox {
   border-style: groove;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    div.shadowBox {
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+      background-color: rgb(220, 220, 220);
+      transition: 0.5s;
+      border-radius: 4px;
+      border-style: groove;
+    }
+}
+
 
 .container {
     padding: 4% 7%;
