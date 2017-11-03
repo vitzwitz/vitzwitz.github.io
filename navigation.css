@@ -65,5 +65,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: Indigo;
+  background-color: #e6e6e6;
 }
