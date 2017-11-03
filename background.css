@@ -6,7 +6,7 @@
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: grid;
 }
 
 [class*="col-"] {
