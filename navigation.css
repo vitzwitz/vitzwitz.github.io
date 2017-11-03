@@ -45,7 +45,7 @@ li.dropdown {
   text-align: right;
 }
 
-.dropdown-menu a:hover {background-color: LightSeaGreen}
+.dropdown-menu a:hover {background-color: rgba(0,0,0,0.2)}
 
 .dropdown:hover .dropdown-menu {
   display:block;
