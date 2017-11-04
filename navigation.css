@@ -40,43 +40,24 @@ ul.dropdown {
   display: inline-block;
 }
 
-/* Dropdown menu */
 .dropdown-menu {
   display: none;
-  position: fixed;
   background-color: #333333;
+  position: fixed;
   min-width: 160px;
   box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
   z-index: 1;
   float: left;
 }
 
-/*Inside menu*/
-.dropdown-menu a {
-  color: #e6e6e6;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: right;
-  text-shadow: 5px;
-}
 
-.dropdown-menu a:hover {background-color: rgb(55, 55, 55);}
-
-/* dropdown feature */
-.dropdown:hover .dropdown-menu {
-  display:block;
-}
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #333333;
     color: white;
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}*/
+
 
 
 /* Navigation Bar */
@@ -91,7 +72,7 @@ ul {
   border-radius: 3px;
   border-style: groove;
   border-color: rgb(65,65,65);
-  border-width:2px;
+  border-width: 1.5px;
 }
 
 li {
@@ -102,7 +83,7 @@ li {
 /* dropdown button */
 li a, .dropbtt {
   border-style:solid;
-  border-color: rgb(65,65,65);
+  border-color: rgb(70,70,70);
   border-width:1px;
   display: block;
   text-align: center;
@@ -118,7 +99,7 @@ li a:hover, .dropdown:hover .dropbtt {
   clear: both;
   border-radius: 0px;
   border-style:solid;
-  border-color: rgb(65,65,65);
+  border-color: black;
   border-width:1px;
 }
 
@@ -138,6 +119,10 @@ li.dropdown {
   float: left;
 }
 
+
+
+/* ========================== */
+
 /*Inside menu*/
 .dropdown-menu a {
   color: #e6e6e6;
@@ -148,7 +133,7 @@ li.dropdown {
   text-shadow: 5px;
 }
 
-.dropdown-menu a:hover {background-color: rgb(55, 55, 55);}
+.dropdown-menu a:hover {background-color: #4d4d4d;}
 
 /* dropdown feature */
 .dropdown:hover .dropdown-menu {
@@ -160,22 +145,27 @@ li.dropdown {
 li a {
   display: block;
   color: #e6e6e6;
+  background-color: #404040;
   text-align: center;
   padding: 16px 11px;
   text-decoration: none;
   border-radius: 3px;
+  border-color: #333333;
 }
 
 /* About button hover */
 li a:hover:not(.active) {
-  background-color: #404040;
+  background-color: rgb(55, 55, 55);
   border-radius: 3px;
+  border-style:solid;
+  border-color: black;
+  border-width:1px;
 }
 
 
 /* About button */
 .active {
-  background-color: rgb(45,45,45);
+  background-color: #4d4d4d;
   border-radius: 3px;
 }
 
