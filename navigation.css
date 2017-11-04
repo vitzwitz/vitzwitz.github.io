@@ -58,7 +58,145 @@ li a.active {
 }
 
 
+/*==================== Mobile ======================== */
 
+/* Navigation Bar */
+@media only screen and (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+    background-color: rgb(60,60,60);
+    top: 0;
+    border-radius: 3px;
+    border-style: groove;
+    border-color: rgb(65,65,65);
+    border-width: 1.5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  li {
+    float:right;
+  }
+}
+
+/* dropdown button */
+@media only screen and (max-width: 768px) {
+  li a, .dropbtt {
+    border-style:solid;
+    border-color: rgb(70,70,70);
+    border-width:1px;
+    display: block;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+}
+
+/* dropdown button - hovering */
+@media only screen and (max-width: 768px) {
+  li a:hover, .dropdown:hover .dropbtt {
+    background-color: rgb(55, 55, 55);
+    clear: both;
+    border-radius: 0px;
+    border-style:solid;
+    border-color: black;
+    border-width:1px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  li.dropdown {
+    color: #e6e6e6;
+    display: inline-block;
+  }
+}
+
+/* Dropdown menu */
+@media only screen and (max-width: 768px) {
+  .dropdown-menu {
+    display: none;
+    position: fixed;
+    background-color: #333333;
+    min-width: 160px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+  }
+}
+
+
+/* ========================== */
+
+/*Inside menu*/
+@media only screen and (max-width: 768px) {
+  .dropdown-menu a {
+    color: #e6e6e6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    text-shadow: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown-menu a:hover {background-color: #4d4d4d;}
+}
+
+/* dropdown feature */
+@media only screen and (max-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display:block;
+  }
+}
+
+/* Buttons on navigation bar */
+@media only screen and (max-width: 768px) {
+  li a {
+    display: block;
+    color: #e6e6e6;
+    background-color: #404040;
+    text-align: center;
+    padding: 16px 11px;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: #333333;
+  }
+}
+
+/* About button hover */
+@media only screen and (max-width: 768px) {
+  li a:hover:not(.active) {
+    background-color: rgb(55, 55, 55);
+    border-radius: 3px;
+    border-style:solid;
+    border-color: black;
+    border-width:1px;
+  }
+}
+
+/* About button */
+@media only screen and (max-width: 768px) {
+  .active {
+    background-color: #4d4d4d;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .active.dropdown {}
+}
+
+
+
+/* ===================  Desktop  ==================== */
 
 /* Navigation Bar */
 @media only screen and (min-width: 768px) {
