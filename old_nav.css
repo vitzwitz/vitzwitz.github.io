@@ -1,0 +1,172 @@
+/*
+div.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+ul a {
+  display: block;
+  color: #e6e6e6;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+li a, .dropbtt {
+  border-style:solid;
+  border-color: rgb(65,65,65);
+  border-width:1px;
+  display: block;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+ul a:hover, .dropdown:hover .dropbtt {
+  background-color: rgb(55, 55, 55);
+  clear: both;
+  border-radius: 0px;
+  border-style:solid;
+  border-color: rgb(65,65,65);
+  border-width:1px;
+}
+
+ul.dropdown {
+  color: #e6e6e6;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: #333333;
+  position: fixed;
+  min-width: 160px;
+  box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  float: left;
+}
+
+
+
+li a.active {
+    background-color: #333333;
+    color: white;
+}
+
+
+/*==================== Mobile ======================== */
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Main function -> makes text in front of block */
+@media screen and (max-height: 450px) {
+  .overlay {
+      height: 0%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-y: auto;
+      transition: 0.65s;
+      background-color: #1a001a;
+      border-radius: 2px;
+  }
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.65s;
+    background-color: #1a001a;
+    border-radius: 4px;
+    padding-top: 60px;
+}
+
+/* Nav block -> only for small screens*/
+@media screen and (max-height: 785px) {
+  .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+  }
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Text in nav*/
+@media screen and (max-height: 450px) {
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+  }
+}
+
+.overlay a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* Cursor over text in nav -> hover & click */
+.overlay a:focus, .overlay a:hover {
+  color: #f1f1f1;
+}
+
+
+/* Exit button */
+@media screen and (MAX-height: 450px) {
+  .overlay .closebtn {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+      font-weight: normal;
+  }
+}
+
+.overlay .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 60px;
+      margin-left: 50px;
+      font-weight: normal;
+}
+
+/* Exit button while cursor hovers */
+.overlay .closebtn:hover {
+    color: #a30f2d;
+}
