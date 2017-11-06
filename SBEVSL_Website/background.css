@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+  background-color: #d9d9d9;
+  margin: -5%;
+  border-bottom: black;
+  border-width: 2px;
+  border-style: groove;
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+}
+
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 50px;
+    font-family: Verdana, Sans-serif;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+.row::after {
+    content: "";
+    clear: both;
+    display: grid;
+}
+}
+
+@media only screen and (max-width: 768px) {
+[class*="col-"] {
+  width: 100%;
+  float: right;
+  display:block;
+}}
+
+/* Desktops */
+
+
+/*[class*="col-"] */
+@media only screen and (max-width: 768px) {
+img {
+  margin-left: 2%;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  border-radius: 7px;
+  height: 300px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(220, 220, 220);
+}
+}
+
+/*
+body {
+  background-color: hsl(0, 0%, 98%);
+}*/
+
+@media only screen and (max-width: 768px) {
+div.Text {
+  font-family: Georgia, serif;
+  float: right;
+  text-align: justify;
+  background-color: rgb(230, 230, 230);
+  font-size: 5px;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+}}
+
+@media only screen and (max-width: 768px) {
+div.shadowBox {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+  background-color: rgb(220, 220, 220);
+  transition: 0.5s;
+  border-radius: 4px;
+  border-style: groove;
+}}
+
+@media only screen and (max-width: 768px) {
+.container {
+  padding: 2% 4%;
+}}
+
+    /* For Desktops: */
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        padding: 15px;
+        font-family: Verdana, Sans-serif;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      overflow: hidden;
+      display: inline;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  img {
+    margin-left: 1%;
+    margin-top: -1%;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+    position: fixed;
+    height: 550px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(220, 220, 220);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.Text {
+    font-family: Georgia, serif;
+    float: right;
+    text-align: justify;
+    background-color: rgb(230, 230, 230);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    div.shadowBox {
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+        background-color: rgb(220, 220, 220);
+        transition: 0.5s;
+        border-radius: 4px;
+        margin-left: 5%;
+        margin-right: 3%;
+        border-style: groove;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 2% 6%;
+  }
+}
