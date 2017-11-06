@@ -60,8 +60,122 @@ li a.active {
 
 /*==================== Mobile ======================== */
 
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Main function -> makes text in front of block */
+@media screen and (max-height: 450px) {
+  .overlay {
+      height: 0%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-y: auto;
+      transition: 0.65s;
+      background-color: #1a001a;
+      border-radius: 2px;
+  }
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.65s;
+    background-color: #1a001a;
+    border-radius: 4px;
+    padding-top: 60px;
+}
+
+/* Nav block -> only for small screens*/
+@media screen and (max-height: 785px) {
+  .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+  }
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Text in nav*/
+@media screen and (max-height: 450px) {
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+  }
+}
+
+.overlay a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #bfbfbf;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* Cursor over text in nav -> hover & click */
+.overlay a:focus, .overlay a:hover {
+  color: #f1f1f1;
+}
+
+
+/* Exit button */
+@media screen and (MAX-height: 450px) {
+  .overlay .closebtn {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+      font-weight: normal;
+  }
+}
+
+.overlay .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 60px;
+      margin-left: 50px;
+      font-weight: normal;
+}
+
+/* Exit button while cursor hovers */
+.overlay .closebtn:hover {
+    color: #a30f2d;
+}
+
+/*=============== Nav Bar with dropdown*/
+
+
 /* Navigation Bar */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   ul {
     list-style-type: none;
     margin: 0;
@@ -79,14 +193,14 @@ li a.active {
   }
 }
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   li {
     float:right;
-  }*/
+  }
 }
 
 /* dropdown button */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   li a, .dropbtt {
     border-style:solid;
     border-color: rgb(70,70,70);
@@ -102,7 +216,7 @@ li a.active {
 }
 
 /* dropdown button - hovering */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   li a:hover, .dropdown:hover .dropbtt {
     background-color: rgb(55, 55, 55);
     clear: both;
@@ -113,7 +227,7 @@ li a.active {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   li.dropdown {
     color: #e6e6e6;
     display: inline-block;
@@ -121,7 +235,7 @@ li a.active {
 }
 
 /* Dropdown menu */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .dropdown-menu {
     display: none;
     position: fixed;
@@ -137,7 +251,7 @@ li a.active {
 /* ========================== */
 
 /*Inside menu*/
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .dropdown-menu a {
     color: #e6e6e6;
     padding: 12px 16px;
@@ -148,19 +262,19 @@ li a.active {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .dropdown-menu a:hover {background-color: #4d4d4d;}
 }
 
 /* dropdown feature */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display:block;
   }
 }
 
 /* Buttons on navigation bar */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   li a {
     display: block;
     color: #e6e6e6;
@@ -174,7 +288,7 @@ li a.active {
 }
 
 /* About button hover */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   li a:hover:not(.active) {
     background-color: rgb(55, 55, 55);
     border-radius: 3px;
@@ -185,19 +299,16 @@ li a.active {
 }
 
 /* About button */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .active {
     background-color: #4d4d4d;
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .active.dropdown {}
 }
-
-
-
 /* ===================  Desktop  ==================== */
 
 /* Navigation Bar */
