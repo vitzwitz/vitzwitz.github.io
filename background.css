@@ -58,21 +58,27 @@ img {
   }
 }
 
-/*
-body {
-  background-color: hsl(0, 0%, 98%);
-}*/
-
-@media only screen and (max-width: 768px) {
 div.Text {
-  font-family: Georgia, serif;
-  float: right;
-  text-align: justify;
-  background-color: rgb(230, 230, 230);
-  font-size: 5px;
-  letter-spacing: 0.5px;
-  line-height: 15px;
-}}
+    font-family: Georgia, serif;
+    float: right;
+    text-align: justify;
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  div.Text {
+    font-family: Georgia, serif;
+    float: right;
+    text-align: justify;
+    background-color: rgb(230, 230, 230);
+    font-size: 5px;
+    letter-spacing: 0.5px;
+    line-height: 10px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 div.shadowBox {
@@ -121,17 +127,7 @@ div.shadowBox {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  div.Text {
-    font-family: Georgia, serif;
-    float: right;
-    text-align: justify;
-    background-color: rgb(230, 230, 230);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    line-height: 10px;
-  }
-}
+
 
 
 
