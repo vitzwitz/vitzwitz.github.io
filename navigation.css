@@ -19,6 +19,7 @@
     border-width: 1.5px;
   }
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -33,7 +34,7 @@ ul {
   border-width: 1.5px;
 }
 
-media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   li {
       float:right;
   }
@@ -187,6 +188,7 @@ li.dropdown {
 
 .dropdown:not(focus) .dropdown_menu {
   display:none;
+}
 
 /* dropdown feature */
 @media screen and (max-width: 768px) {
