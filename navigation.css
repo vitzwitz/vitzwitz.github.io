@@ -64,7 +64,7 @@ li {
   }
 }
 
-li a, .dropbtt {
+li a, button.dropbtt {
     border-style:solid;
     border-color: rgb(70,70,70);
     border-width:1px;
@@ -84,7 +84,7 @@ li a, .dropbtt {
   }
 }
 
-li a:hover, .dropdown:hover .dropbtt {
+li a:hover, .dropdown:hover button.dropbtt {
     background-color: rgb(55, 55, 55);
     clear: both;
     border-radius: 0px;
