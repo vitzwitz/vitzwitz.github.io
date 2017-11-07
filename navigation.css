@@ -86,6 +86,22 @@ li a, button.dropbtt {
   }
 }
 
+li a:hover, .dropdown:hover button.dropbtt.active, .dropdown:hover button.dropbtt:hover {
+    opacity: 0.4;
+    clear: both;
+    border-radius: 0px;
+    border-style:solid;
+    border-color: black;
+    border-width:1px;
+}
+
+@media screen and (max-width: 768px) {
+  li a:hover, .dropdown:focus button.dropbtt.active, .dropdown:hover button.dropbtt:hover {
+    opacity: 0.4;
+    clear: both;
+  }
+}
+
 li a:hover, .dropdown:hover button.dropbtt {
     background-color: rgb(55, 55, 55);
     clear: both;
@@ -163,6 +179,15 @@ li.dropdown {
 .dropdown_menu a:hover {background-color: #4d4d4d;}
 
 
+@media screen and (max-width: 768px) {
+  .dropdown:not(focus) .dropdown_menu {
+    display:block;
+  }
+}
+
+.dropdown:not(focus) .dropdown_menu {
+  display:none;
+
 /* dropdown feature */
 @media screen and (max-width: 768px) {
   .dropdown:focus .dropdown_menu {
@@ -207,6 +232,7 @@ li a {
     border-style:solid;
     border-color: black;
     border-width:1px;
+    display: none;
   }
 }
 
@@ -216,6 +242,7 @@ li a:hover:not(.active) {
   border-style:solid;
   border-color: black;
   border-width:1px;
+  display: none;
 }
 
 /* About button */
