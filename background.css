@@ -8,9 +8,14 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
+.header {
+  padding: 15px;
+  font-family: Verdana, Sans-serif;
+}
+
+@media screen and (max-width: 768px) {
   .header {
-    padding: 30px;
+    padding: 10px;
     font-family: Verdana, Sans-serif;
   }
 }
@@ -80,12 +85,7 @@ div.shadowBox {
     /* For Desktops: */
 
 
-@media only screen and (min-width: 768px) {
-    .header {
-        padding: 15px;
-        font-family: Verdana, Sans-serif;
-    }
-}
+
 
 @media only screen and (min-width: 768px) {
     [class*="col-"] {
