@@ -40,9 +40,11 @@ li {
 
 /* dropdown button */
 @media screen and (max-width: 768px) {
-  li a, .dropbtt {
+  li a, button.dropbtt {
     background-color: #330033;
     color: #e6e6e6;
+    padding: 16px 14px;
+    font-weight: bold;
     cursor: pointer;
     padding: 20px;
     width: 100%;
@@ -51,12 +53,14 @@ li {
     font-size: 20px;
     transition: 0.4s;
     opacity: 0.8;
+    display: block;
     border-style:solid;
     border-radius: 2px;
     border-width: 1px;
     border-color: #1a0d26;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    text-decoration: none;
   }
 }
 
@@ -75,13 +79,8 @@ li a, .dropbtt {
 
 /* dropdown button - hovering */
 @media screen and (max-width: 768px) {
-  li a:hover, .dropdown:hover .dropbtt {
-    background-color: rgb(55, 55, 55);
-    clear: both;
-    border-radius: 0px;
-    border-style:solid;
-    border-color: black;
-    border-width:1px;
+  li a:hover, .dropdown:hover button.dropbtt.active, button.dropbtt:hover {
+    opacity: 0.4;
   }
 }
 
