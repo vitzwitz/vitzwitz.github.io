@@ -79,7 +79,7 @@ li a, .dropbtt {
 
 /* dropdown button - hovering */
 @media screen and (max-width: 768px) {
-  li a:hover, .dropdown:hover button.dropbtt.active, button.dropbtt:hover {
+  li a:hover, .dropdown:focus button.dropbtt.active, .dropdown:hover button.dropbtt:hover {
     opacity: 0.4;
   }
 }
