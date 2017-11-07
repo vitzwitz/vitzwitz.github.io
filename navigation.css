@@ -105,9 +105,9 @@ li.dropdown {
   display: inline-block;
 }
 
-/* Dropdown menu 2m*/
+/* Dropdown menu */
 @media screen and (max-width: 768px) {
-  .dropdown-menu {
+  .dropdown_menu {
     display: none;
     position: fixed;
     padding: 0 18px;
@@ -120,7 +120,7 @@ li.dropdown {
   }
 }
 
-.dropdown-menu {
+.dropdown_menu {
   display: none;
   position: fixed;
   background-color: #333333;
@@ -135,7 +135,7 @@ li.dropdown {
 
 /*Inside menu*/
 @media screen and (max-width: 768px) {
-  .dropdown-menu a {
+  .dropdown_menu a {
     color: #e6e6e6;
     padding: 12px 16px;
     text-decoration: none;
@@ -145,7 +145,7 @@ li.dropdown {
   }
 }
 
-.dropdown-menu a {
+.dropdown_menu a {
   color: #e6e6e6;
   padding: 12px 16px;
   text-decoration: none;
@@ -155,20 +155,20 @@ li.dropdown {
 }
 
 @media screen and (max-width: 768px) {
-  .dropdown-menu a:hover {opacity: 0.5;}
+  .dropdown_menu a:hover {opacity: 0.5;}
 }
 
-.dropdown-menu a:hover {background-color: #4d4d4d;}
+.dropdown_menu a:hover {background-color: #4d4d4d;}
 
 
 /* dropdown feature */
 @media screen and (max-width: 768px) {
-  .dropdown:focus .dropdown-menu {
+  .dropdown:focus .dropdown_menu {
     display:block;
   }
 }
 
-.dropdown:focus .dropdown-menu {
+.dropdown:focus .dropdown_menu {
   display:block;
 }
 
@@ -232,12 +232,12 @@ li a:hover:not(.active) {
 
 /* dropdown feature */
 @media only screen and (min-width: 768px) {
-  .dropdown:hover .dropdown-menu {
+  .dropdown:hover .dropdown_menu {
     display:block;
   }
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown_menu {
   display:block;
 }
 
