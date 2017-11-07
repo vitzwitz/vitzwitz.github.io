@@ -51,6 +51,7 @@ li {
     font-size: 20px;
     transition: 0.4s;
     opacity: 0.8;
+    border-style:solid;
     border-radius: 2px;
     border-width: 1px;
     border-color: #1a0d26;
