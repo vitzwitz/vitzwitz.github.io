@@ -34,10 +34,8 @@ ul {
   border-width: 1.5px;
 }
 
-@media screen and (min-width: 768px) {
-  li {
+li {
       float:right;
-  }
 }
 
 /* dropdown button */
