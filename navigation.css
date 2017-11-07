@@ -33,9 +33,10 @@ ul {
   border-width: 1.5px;
 }
 
-
-li {
-    float:right;
+media screen and (min-width: 768px) {
+  li {
+      float:right;
+  }
 }
 
 /* dropdown button */
@@ -81,6 +82,7 @@ li a, button.dropbtt {
 @media screen and (max-width: 768px) {
   li a:hover, .dropdown:focus button.dropbtt.active, .dropdown:hover button.dropbtt:hover {
     opacity: 0.4;
+    clear: both;
   }
 }
 
