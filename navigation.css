@@ -53,7 +53,7 @@ li {
     font-size: 20px;
     transition: 0.4s;
     opacity: 0.8;
-    display: block;
+    display: none;
     border-style:solid;
     border-radius: 2px;
     border-width: 1px;
@@ -68,7 +68,7 @@ li a, .dropbtt {
     border-style:solid;
     border-color: rgb(70,70,70);
     border-width:1px;
-    display: block;
+    display: none;
     text-align: center;
     padding: 16px 14px;
     text-decoration: none;
