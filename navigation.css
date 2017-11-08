@@ -62,6 +62,8 @@ ul {
   border-width: 1.5px;
 }
 
+
+
 li {
       float:right;
 }
@@ -69,8 +71,12 @@ li {
 /* dropdown button */
 @media screen and (max-width: 768px) {
   li a, .dropbtt {
-    display: none;
-    outline: none;
+    border-style:solid;
+    border-color: rgb(70,70,70);
+    border-width:1px;
+
+    display: block;
+    padding: 16px 14px;
   }
 }
 
