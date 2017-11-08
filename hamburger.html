@@ -1,0 +1,134 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+
+.bgr1, .bgr2, .bgr3 {
+    width: 40px;
+    height: 7px;
+    background-color: #ff8080;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+}
+
+.change .bgr1 {
+    -webkit-transform: rotate(45deg) translate(8px, 10px) ;
+    transform: rotate(45deg) translate(10px, 10px) ;
+    background-color: #e60000;
+}
+
+.change .bgr2 {opacity: 0;}
+
+.change .bgr3 {
+    -webkit-transform: rotate(-45deg) translate(8px, -10px) ;
+    transform: rotate(-45deg) translate(9px, -9px);
+    background-color: #e60000;
+}
+
+.change li.menu {
+	display: block;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: grid;
+}
+
+[class*="col-"] {
+  width: 100%;
+  float: right;
+  display:block;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+ul.navBar {
+	display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+    top: 0;
+    border-radius: 3px;
+    background-color: #2f4f4f;
+    padding: 10px;
+    position: center;
+    margin-left: 8%;
+    margin-right: 84.5%;
+}
+
+li.menu {
+	display: none;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-content a {
+    display: none;
+    position: absolute;
+    background-color: #ff8080;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:focus {background-color: #f1f1f1}
+
+.dropdown:focus .dropdown-content {
+    display: block;
+}
+
+
+
+</style>
+
+<body>
+<ul class = "navBar" onclick="drop(this)">
+<div class="bgr1"></div><div class="bgr2"></div><div class="bgr3"></div>
+  <li class="menu">
+    <a href="javascript:void(0)"></a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+
+
+<script>
+function drop(x) {
+    x.classList.toggle("change");
+}
+</script>
+
+</body>
+</html>

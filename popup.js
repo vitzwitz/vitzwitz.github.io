@@ -17,3 +17,7 @@ for (i=0; i<drpdwn.length; i++) {
     }
   }
 }
+
+function drop(x) {
+    x.classList.toggle("change");
+}
