@@ -28,7 +28,7 @@ body {
 
 [class*="col-"] {
   width: 100%;
-  float: right;
+  float: left;
   display:block;
 }
 
