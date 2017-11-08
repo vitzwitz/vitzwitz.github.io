@@ -61,6 +61,7 @@ img {
 
 div.Text {
     font-family: Georgia, serif;
+    float: right;
     text-align: justify;
     background-color: rgb(230, 230, 230);
     font-size: 15px;
