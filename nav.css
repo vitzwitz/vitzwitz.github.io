@@ -1,3 +1,5 @@
+
+@media screen and (max-width: 768px) {
 button.menuBttn {
   z-index: 1;
   margin: 0;
@@ -11,15 +13,24 @@ button.menuBttn {
   border-width: 1.5px;
   border-radius: 4px;
   padding: 3px 3px;
-}
+}}
 
+@media screen and (min-width: 768px) {
+button.menuBttn {
+  z-index: 1;
+  margin: 0;
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-color: rgb(85,85,85);
+  background-color: rgb(65,65,65);
+  border-style: groove;
+  border-width: 1.5px;
+  border-radius: 4px;
+  padding: 3px 3px;
+}}
 
-@media only screen and (min-width: 768px) {
-  button.menuBttn {
-    opacity: 0;
-    cursor: auto;
-  }
-}
 
 .bgr1, .bgr2, .bgr3 {
   margin: 3px 0;
@@ -32,9 +43,27 @@ button.menuBttn {
   border-color: rgb(130,130,130);
 }
 
+@media screen and (min-width: 768px) {
+  .myMenu {
+    margin: 2px 0;
+    text-align: center;
+    color: rgb(150,150,150);
+    z-index: 1;
+    transition: 0.4s;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myMenu {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .bgr1, .bgr2, .bgr3 {
-    opacity: 0;
+    display: none;
   }
 }
 
@@ -42,15 +71,15 @@ button.menuBttn {
   opacity: 0;
 }
 
+  ul {
+    display: none;
+  }
 
-ul {
-  display: none;
-}
 
 .change ul {
-    display: grid;
+    float: left;
+    display:inline-block;
     list-style-type: none;
-    margin: 0;
     top: 0;
     padding: 0;
     z-index: 1;
@@ -65,25 +94,10 @@ ul {
     border-width: 1.5px;
 }
 
-@media only screen and (min-width: 768px) {
-  ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: -5%;
-    margin-right: -5%;
-    display: grid;
-    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
-    background-color: rgb(60,60,60);
-    top: 0;
-    border-radius: 3px;
-    border-style: groove;
-    border-color: rgb(65,65,65);
-    border-width: 1.5px;
-  }
-}
+
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -120,8 +134,27 @@ li a, .dropbtt {
   font-family: sans-serif;
 }
 
+@media screen and (min-width: 768px) {
+  li a, .dropbtt {
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+    border-style:solid;
+    border-color: rgb(70,70,70);
+    border-width:2px;
+
+    display: block;
+    padding: 15px 15px;
+    width: 500px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+}
+
 li a:hover, .dropdown:hover .dropbtt {
-  background-color: rgb(55, 55, 55);
   clear: both;
   border-radius: 0px;
   border-style:solid;
@@ -129,27 +162,53 @@ li a:hover, .dropdown:hover .dropbtt {
   border-width:1px;
 }
 
-
-
-.dropdown-menu {
-  display: none;
-  position: fixed;
-  background-color: #333333;
-  min-width: 160px;
-  box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  float: right;
+@media screen and (min-width: 768px) {
+  .dropdown-menu {
+    display: none;
+    position: fixed;
+    min-width: 500px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+  }
 }
 
-.dropdown-menu a {
-  color: #e6e6e6;
-  padding: 12px 15px;
-  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
-  text-decoration: none;
-  display: block;
-  text-align: right;
-  text-shadow: 5px;
-  border-radius: 5px;
+@media screen and (max-width: 768px) {
+  .dropdown-menu {
+    display: none;
+    position: fixed;
+    background-color: #333333;
+    min-width: 200px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown-menu a {
+    color: #e6e6e6;
+    padding: 12px 15px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    display: block;
+    text-align: white;
+    text-shadow: 5px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu a {
+    color: #e6e6e6;
+    padding: 12px 15px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    display: block;
+    text-align: white;
+    text-shadow: 5px;
+    border-radius: 5px;
+  }
 }
 
 .dropdown-menu a:hover {
@@ -159,8 +218,9 @@ li a:hover, .dropdown:hover .dropbtt {
 }
 
 .dropdown:hover .dropdown-menu {
-  display:block;
+  display:inline;
   float: right;
-  -webkit-transform: translate(100px,-35px);
-  transform: translate(100px,-35px);
+  box-shadow: 0px 6px 12px 6px rgba(0,0,0,0.2);
+  -webkit-transform: translate(50px,-35px);
+  transform: translate(50px,-35px);
 }

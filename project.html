@@ -3,15 +3,114 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="background.css">
-  <title> Home </title>
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="profiles.css">
+  <title> Research </title>
 </head>
   <body>
+<div class="row">
+        <button class = "menuBttn" onclick="drop(this)">
+          <div class="myMenu">
+            Click Me
+          </div>
+          <div class="bgr1"></div>
+          <div class="bgr2"></div>
+          <div class="bgr3"></div>
 
+      <ul>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtt">Research</a>
+          <div class="dropdown-menu">
+            <a href="https://github.com/vitzwitz/matching-functions/blob/master/README.md">ReadMe</a>
+            <a onclick="popUp()" href="SBEVSL_Website/main.html">Website</a>
+            <a href="project.html">Description</a>
+            <!-- <a href="SBEVSL_Website/mainPage.html">Website</a> -->
+            </div>
+        </li>
 
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtt">Projects</a>
+          <div class="dropdown-menu">
+            <a href="https://github.com/vitzwitz/school_projects/blob/master/README.md">Java Projects</a>
+            <a href="#">Python Projects</a>
+            <a href="https://github.com/vitzwitz/school_projects/blob/master/README.md">Matlab Projects</a>
+            <a href="TylersWebsite/mainPage.html">HTML Projects</a>
+            <!-- <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtt">HTML Projects</a>
+                  <div class="dropdown-menu">
+                    <a href="TylersWebsite/mainPage.html">Photography Website</a>
+                    <a href="#">Bioinformatics Website</a>
+                  </div>
+            </li> -->
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtt">Contact</a>
+            <div class="dropdown-menu">
+              <a href="https://linkedin.com/in/brianna-miskovitz/">Linkedin</a>
+              <a href="https://github.com/vitzwitz/">Github</a>
+            </div>
+       </li>
+     </button>
+   </ul>
+
+   </div>
+
+    <div class="row">
+    <div class="col-4">
+    <div class="card">
+      Help convert the visualization program, ProMOL, from a plug-in into a stand-alone version
+    </div>
+    </div>
+
+    <div class="col-4">
+    <div class="card">
+      Develop a k-nearest neighbor search algorithm \& adapted a k-dimensional tree structure
+    </div>
+    </div>
+
+    <div class="col-4">
+    <div class="card">
+      Implement modified principal components analysis (PCA) procedure into motif
+    </div>
+    </div>
+    </div>
+
+    <div class="row">
+
+    <div class="col-4">
+    <div class="card">
+      Test program by extracting data files from the Protein Data Bank and utilize NumPy & SciPy
+    </div>
+    </div>
+
+    <div class="col-4">
+    <div class="card">
+      Write parsing methods to update motifs & produce tables using Panda
+    </div>
+    </div>
+
+    <div class="col-4">
+    <div class="card">
+      Implement original PCA method to help compare the results between protein structures in the same family
+    </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="card">
+  I am writing methods that will convert the results from indices that locate where each atom exists in that
+  protein's k-D tree into matrices consisting specifics, including the atom such as position, occupancy, chain ID,
+   residue name, and atom name, and for visualization purposes, into tables using Panda. I am also again writing an
+    algorithm based on principal components analysis in order to find which attributes have the greatest variances
+    between the search results of protein structures in a protein family.
+  </div>
+  </div>
+
+<script src="popup.js"></script>
   </body>
 
 </html>
